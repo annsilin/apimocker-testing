@@ -1,0 +1,5 @@
+URL:    https://apimocker.com/posts/106
+Method: DELETE
+Status: 204
+Time:   155 ms
+Body:   

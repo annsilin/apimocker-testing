@@ -1,3 +1,0 @@
-15:00:48  INFO      conftest - Output directories ready.
-15:00:48  INFO      api.base_client - → GET https://apimocker.com/comments  params={}  body=None
-15:00:53  INFO      api.base_client - ← GET https://apimocker.com/comments  [400]  5169ms

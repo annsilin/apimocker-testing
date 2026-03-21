@@ -1,6 +1,0 @@
-INFO     api.base_client:base_client.py:31 → GET https://apimocker.com/users  params={}  body=None
-INFO     api.base_client:base_client.py:36 ← GET https://apimocker.com/users  [200]  134ms
-INFO     api.base_client:base_client.py:31 → POST https://apimocker.com/posts  params=None  body={'title': 'Del', 'body': 'Body', 'userId': 1}
-INFO     api.base_client:base_client.py:36 ← POST https://apimocker.com/posts  [201]  325ms
-INFO     api.base_client:base_client.py:31 → DELETE https://apimocker.com/posts/102  params=None  body=None
-INFO     api.base_client:base_client.py:36 ← DELETE https://apimocker.com/posts/102  [204]  153ms

@@ -1,0 +1,5 @@
+URL:    https://apimocker.com/users/999999
+Method: PUT
+Status: 404
+Time:   147 ms
+Body:   {"success":false,"error":"Resource not found"}

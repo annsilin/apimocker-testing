@@ -1,0 +1,5 @@
+URL:    https://apimocker.com/users
+Method: POST
+Status: 201
+Time:   147 ms
+Body:   {"data":{"id":18,"name":"Del","username":"user1774112328839","email":"test.1774112328839@example.com","phone":null,"website":null,"address":null,"company":null,"createdAt":"2026-03-21T16:58:48.890Z","updatedAt":"2026-03-21T16:58:48.890Z"}}

@@ -1,0 +1,2 @@
+16:58:47  INFO      api.base_client - → POST https://apimocker.com/users  params=None  body={'name': 'Ann Silin', 'email': 'test.1774112327895@example.com', 'username': 'user1774112327895'}
+16:58:48  INFO      api.base_client - ← POST https://apimocker.com/users  [201]  201ms

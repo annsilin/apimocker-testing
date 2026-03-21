@@ -1,5 +1,0 @@
-URL:    https://apimocker.com/comments/999999
-Method: GET
-Status: 400
-Time:   5082 ms
-Body:   {"success":false,"error":"Database operation failed"}

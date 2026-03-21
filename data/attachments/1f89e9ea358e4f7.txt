@@ -1,0 +1,5 @@
+URL:    https://apimocker.com/todos/1
+Method: PATCH
+Status: 400
+Time:   99 ms
+Body:   {"error":"Validation Error","message":"Invalid input data","details":[{"type":"field","value":"","msg":"Title is required and must be between 1 and 200 characters","path":"title","location":"body"}]}

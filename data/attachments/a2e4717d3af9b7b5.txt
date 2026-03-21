@@ -1,5 +1,0 @@
-URL:    https://apimocker.com/posts/1
-Method: GET
-Status: 200
-Time:   181 ms
-Body:   {"data":{"id":1,"title":"Building Scalable Microservices","body":"This is a comprehensive article about building scalable microservices. It covers various aspects including best practices, common pitfalls, and real-world examples. The content is designed to be both educational and practical for developers at all levels.","userId":1,"createdAt":"2026-03-21T00:00:04.686Z","updatedAt":"2026-03-21T00:00:04.686Z","user":{"id":1,"name":"Updated","username":"user1774104876148"}}}

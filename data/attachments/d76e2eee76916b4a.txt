@@ -1,5 +1,0 @@
-URL:    https://apimocker.com/todos
-Method: POST
-Status: 201
-Time:   341 ms
-Body:   {"data":{"id":203,"title":"Del","description":null,"completed":false,"userId":1,"createdAt":"2026-03-21T15:01:18.403Z","updatedAt":"2026-03-21T15:01:18.403Z","user":{"id":1,"name":"Updated","username":"user1774104876148"}}}

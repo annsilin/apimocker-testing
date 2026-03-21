@@ -1,0 +1,5 @@
+URL:    https://apimocker.com/posts/999999
+Method: GET
+Status: 404
+Time:   152 ms
+Body:   {"error":"Not Found","message":"post with id 999999 not found"}

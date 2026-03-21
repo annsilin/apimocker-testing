@@ -1,5 +1,0 @@
-URL:    https://apimocker.com/todos/203
-Method: DELETE
-Status: 204
-Time:   134 ms
-Body:   

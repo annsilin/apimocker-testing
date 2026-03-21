@@ -1,5 +1,0 @@
-URL:    https://apimocker.com/todos/999999
-Method: GET
-Status: 404
-Time:   86 ms
-Body:   {"error":"Not Found","message":"todo with id 999999 not found"}

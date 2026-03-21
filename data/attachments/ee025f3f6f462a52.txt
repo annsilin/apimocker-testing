@@ -1,5 +1,0 @@
-URL:    https://apimocker.com/todos
-Method: POST
-Status: 201
-Time:   387 ms
-Body:   {"data":{"id":202,"title":"Buy groceries","description":null,"completed":false,"userId":1,"createdAt":"2026-03-21T15:01:16.666Z","updatedAt":"2026-03-21T15:01:16.666Z","user":{"id":1,"name":"Updated","username":"user1774104876148"}}}

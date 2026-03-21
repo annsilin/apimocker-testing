@@ -1,2 +1,0 @@
-15:00:53  INFO      api.base_client - → GET https://apimocker.com/comments  params={'limit': 5}  body=None
-15:00:58  INFO      api.base_client - ← GET https://apimocker.com/comments?limit=5  [400]  5084ms

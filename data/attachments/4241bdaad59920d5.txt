@@ -1,5 +1,0 @@
-URL:    https://apimocker.com/todos/999999
-Method: DELETE
-Status: 404
-Time:   101 ms
-Body:   {"success":false,"error":"Resource not found"}

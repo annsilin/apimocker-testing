@@ -1,0 +1,5 @@
+URL:    https://apimocker.com/posts/search?q=development
+Method: GET
+Status: 200
+Time:   227 ms
+Body:   {"query":"development","total":20,"totalPages":2,"page":1,"limit":10,"hasNext":true,"hasPrev":false,"results":[{"id":2,"title":"Getting Started with Modern Web Development","body":"This is a comprehensive article about getting started with modern web development. It covers various aspects including best practices, common pitfalls, and real-world examples. The content is designed to be both educational and practical for developers at all levels.","userId":1,"createdAt":"2026-03-21T00:00:04.685Z","updatedAt":"2026-03-21T00:00:04.685Z","user":{"id":1,"name":"Updated","username":"user1774112222865"}},{"id":7,"title":"Mobile App Development Strategies","body":"This is a comprehensive article about mobile app development strategies. It covers various aspects including best practices, common pitfalls, and real-world examples. The content is designed to be both educational and practical for developers at all levels.","userId":1,"createdAt":"2026-03-21T00:00:04.693Z","updatedAt":"2026-03-21T00:

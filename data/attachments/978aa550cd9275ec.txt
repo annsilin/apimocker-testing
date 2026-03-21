@@ -1,0 +1,5 @@
+URL:    https://apimocker.com/comments/999999
+Method: GET
+Status: 404
+Time:   140 ms
+Body:   {"error":"Not Found","message":"comment with id 999999 not found"}

@@ -1,0 +1,5 @@
+URL:    https://apimocker.com/comments
+Method: GET
+Status: 200
+Time:   450 ms
+Body:   {"data":[{"id":3,"name":"David Brown","email":"david.brown@example.com","body":"Excellent write-up! The step-by-step approach makes it easy to follow along.","postId":2,"createdAt":"2026-03-21T00:00:07.654Z","updatedAt":"2026-03-21T00:00:07.654Z","post":{"id":2,"title":"Getting Started with Modern Web Development"}},{"id":4,"name":"Sarah Wilson","email":"sarah.wilson@example.com","body":"This is exactly what I was looking for. The examples are very clear and practical.","postId":2,"createdAt":"2026-03-21T00:00:07.654Z","updatedAt":"2026-03-21T00:00:07.654Z","post":{"id":2,"title":"Getting Started with Modern Web Development"}},{"id":5,"name":"Mike Johnson","email":"mike.johnson@example.com","body":"I have a question about the implementation. Could you elaborate on the database optimization part?","postId":2,"createdAt":"2026-03-21T00:00:07.654Z","updatedAt":"2026-03-21T00:00:07.654Z","post":{"id":2,"title":"Getting Started with Modern Web Development"}},{"id":6,"name":"John Doe","email

@@ -1,5 +1,0 @@
-URL:    https://apimocker.com/users/1
-Method: PATCH
-Status: 404
-Time:   39 ms
-Body:   {"error":"Not Found","message":"Route PATCH /users/1 not found"}

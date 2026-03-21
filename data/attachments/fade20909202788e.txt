@@ -1,0 +1,5 @@
+URL:    https://apimocker.com/users/18
+Method: DELETE
+Status: 204
+Time:   179 ms
+Body:   

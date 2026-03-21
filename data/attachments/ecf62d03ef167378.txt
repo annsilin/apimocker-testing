@@ -1,5 +1,0 @@
-URL:    https://apimocker.com/posts
-Method: POST
-Status: 201
-Time:   404 ms
-Body:   {"data":{"id":101,"title":"Test Post","body":"Body","userId":1,"createdAt":"2026-03-21T15:01:13.603Z","updatedAt":"2026-03-21T15:01:13.603Z","user":{"id":1,"name":"Updated","username":"user1774104876148"}}}

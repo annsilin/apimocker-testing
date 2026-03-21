@@ -1,0 +1,5 @@
+URL:    https://apimocker.com/comments
+Method: POST
+Status: 400
+Time:   92 ms
+Body:   {"error":"Validation Error","message":"Invalid input data","details":[{"type":"field","msg":"Must be a valid email address","path":"email","location":"body"}]}

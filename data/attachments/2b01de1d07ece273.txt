@@ -1,0 +1,2 @@
+INFO     api.base_client:base_client.py:31 → DELETE https://apimocker.com/posts/999999  params=None  body=None
+INFO     api.base_client:base_client.py:36 ← DELETE https://apimocker.com/posts/999999  [404]  143ms

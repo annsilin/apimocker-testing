@@ -1,0 +1,5 @@
+URL:    https://apimocker.com/posts/1
+Method: GET
+Status: 200
+Time:   361 ms
+Body:   {"data":{"id":1,"title":"Updated","body":"Updated","userId":1,"createdAt":"2026-03-21T00:00:04.686Z","updatedAt":"2026-03-21T16:56:39.047Z","user":{"id":1,"name":"Updated","username":"user1774112222865"}}}

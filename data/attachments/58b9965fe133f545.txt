@@ -1,0 +1,4 @@
+16:58:42  INFO      api.base_client - → GET https://apimocker.com/posts  params={}  body=None
+16:58:42  INFO      api.base_client - ← GET https://apimocker.com/posts  [200]  202ms
+16:58:42  INFO      api.base_client - → PATCH https://apimocker.com/posts/1  params=None  body={'title': 'Patched'}
+16:58:42  INFO      api.base_client - ← PATCH https://apimocker.com/posts/1  [400]  107ms

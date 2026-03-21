@@ -1,5 +1,0 @@
-URL:    https://apimocker.com/todos
-Method: GET
-Status: 200
-Time:   134 ms
-Body:   {"data":[{"id":1,"title":"Updated","description":"Review and provide feedback on pending pull requests from team members","completed":true,"userId":1,"createdAt":"2026-03-21T00:00:05.907Z","updatedAt":"2026-03-21T15:01:17.501Z","user":{"id":1,"name":"Updated","username":"user1774104876148"}},{"id":2,"title":"Write unit tests","description":"Add comprehensive unit tests for the new user management features","completed":false,"userId":1,"createdAt":"2026-03-21T00:00:05.908Z","updatedAt":"2026-03-21T00:00:05.908Z","user":{"id":1,"name":"Updated","username":"user1774104876148"}},{"id":3,"title":"Update documentation","description":"Update API documentation and README files with latest changes","completed":false,"userId":1,"createdAt":"2026-03-21T00:00:05.907Z","updatedAt":"2026-03-21T00:00:05.907Z","user":{"id":1,"name":"Updated","username":"user1774104876148"}},{"id":4,"title":"Deploy to staging environment","description":"Deploy the latest changes to the staging environment for testing",

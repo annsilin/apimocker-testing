@@ -1,0 +1,2 @@
+16:58:45  INFO      api.base_client - → PUT https://apimocker.com/todos/999999  params=None  body={'title': 'Ghost'}
+16:58:45  INFO      api.base_client - ← PUT https://apimocker.com/todos/999999  [404]  234ms

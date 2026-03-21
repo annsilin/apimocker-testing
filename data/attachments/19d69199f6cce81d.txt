@@ -1,0 +1,2 @@
+16:58:43  INFO      api.base_client - → GET https://apimocker.com/todos  params={'limit': 5}  body=None
+16:58:43  INFO      api.base_client - ← GET https://apimocker.com/todos?limit=5  [200]  203ms
