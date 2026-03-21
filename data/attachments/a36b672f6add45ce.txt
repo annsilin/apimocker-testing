@@ -1,0 +1,4 @@
+INFO     api.base_client:base_client.py:31 → POST https://apimocker.com/users  params=None  body={'name': 'Del', 'email': 'test.1774104876530@example.com', 'username': 'user1774104876530'}
+INFO     api.base_client:base_client.py:36 ← POST https://apimocker.com/users  [201]  85ms
+INFO     api.base_client:base_client.py:31 → DELETE https://apimocker.com/users/12  params=None  body=None
+INFO     api.base_client:base_client.py:36 ← DELETE https://apimocker.com/users/12  [204]  144ms
