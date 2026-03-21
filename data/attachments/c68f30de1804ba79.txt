@@ -1,1 +1,0 @@
-INFO     conftest:conftest.py:30 Output directories ready.

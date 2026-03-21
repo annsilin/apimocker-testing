@@ -1,0 +1,4 @@
+15:01:16  INFO      api.base_client - → GET https://apimocker.com/users  params={}  body=None
+15:01:16  INFO      api.base_client - ← GET https://apimocker.com/users  [200]  87ms
+15:01:16  INFO      api.base_client - → POST https://apimocker.com/todos  params=None  body={'title': 'Buy groceries', 'completed': False, 'userId': 1}
+15:01:17  INFO      api.base_client - ← POST https://apimocker.com/todos  [201]  387ms

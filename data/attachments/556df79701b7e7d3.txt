@@ -1,0 +1,4 @@
+INFO     api.base_client:base_client.py:31 → GET https://apimocker.com/todos  params={}  body=None
+INFO     api.base_client:base_client.py:36 ← GET https://apimocker.com/todos  [200]  134ms
+INFO     api.base_client:base_client.py:31 → PATCH https://apimocker.com/todos/1  params=None  body={'completed': True}
+INFO     api.base_client:base_client.py:36 ← PATCH https://apimocker.com/todos/1  [400]  38ms

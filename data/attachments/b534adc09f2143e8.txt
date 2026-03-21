@@ -1,0 +1,4 @@
+INFO     api.base_client:base_client.py:31 → GET https://apimocker.com/posts  params={}  body=None
+INFO     api.base_client:base_client.py:36 ← GET https://apimocker.com/posts  [200]  199ms
+INFO     api.base_client:base_client.py:31 → PATCH https://apimocker.com/posts/1  params=None  body={'title': 'Patched'}
+INFO     api.base_client:base_client.py:36 ← PATCH https://apimocker.com/posts/1  [400]  37ms

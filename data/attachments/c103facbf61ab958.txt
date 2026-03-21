@@ -1,0 +1,5 @@
+URL:    https://apimocker.com/todos/1
+Method: PUT
+Status: 200
+Time:   378 ms
+Body:   {"data":{"id":1,"title":"Updated","description":"Review and provide feedback on pending pull requests from team members","completed":true,"userId":1,"createdAt":"2026-03-21T00:00:05.907Z","updatedAt":"2026-03-21T15:01:17.501Z","user":{"id":1,"name":"Updated","username":"user1774104876148"}}}

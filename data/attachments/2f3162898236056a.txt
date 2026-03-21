@@ -1,0 +1,2 @@
+INFO     api.base_client:base_client.py:31 → GET https://apimocker.com/posts/search  params={'q': 'development'}  body=None
+INFO     api.base_client:base_client.py:36 ← GET https://apimocker.com/posts/search?q=development  [200]  241ms

@@ -1,0 +1,2 @@
+15:01:19  INFO      api.base_client - → PUT https://apimocker.com/users/999999  params=None  body={'name': 'Ghost', 'email': 'test.1774105279854@example.com', 'username': 'user1774105279854'}
+15:01:19  INFO      api.base_client - ← PUT https://apimocker.com/users/999999  [404]  101ms
