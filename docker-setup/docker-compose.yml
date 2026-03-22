@@ -1,0 +1,59 @@
+# ─────────────────────────────────────────────────────────────────────────
+# Apimocker API Test Infrastructure
+#
+# Services:
+#   jenkins   - CI/CD, scheduled test runs    (port 8080)
+#   allure    - Allure report server           (port 5050)
+#
+# Usage:
+#   docker compose -f docker-setup/docker-compose.yml up -d
+#   docker compose -f docker-setup/docker-compose.yml down
+# ─────────────────────────────────────────────────────────────────────────
+
+services:
+
+  # ── Jenkins ──────────────────────────────────────────────────────────────
+  jenkins:
+    build:
+      context: ./jenkins
+      dockerfile: Dockerfile
+    container_name: apimocker-jenkins
+    ports:
+      - "8080:8080"
+      - "50000:50000"
+    volumes:
+      - jenkins_home:/var/jenkins_home
+      - /var/run/docker.sock:/var/run/docker.sock
+      - ../:/workspace:ro
+    environment:
+      - HOST_WORKSPACE=C:/Users/Ann/PycharmProjects/apimocker-testing  # host path for docker run -v
+    restart: unless-stopped
+    networks:
+      - apimocker
+
+  # ── Allure report server ──────────────────────────────────────────────────
+  allure:
+    image: frankescobar/allure-docker-service:latest
+    container_name: apimocker-allure
+    ports:
+      - "5050:5050"
+    volumes:
+      - apimocker_allure_results:/app/allure-results
+      - allure_reports:/app/default-reports
+    environment:
+      CHECK_RESULTS_EVERY_SECONDS: 10
+      KEEP_HISTORY: 20
+    restart: unless-stopped
+    networks:
+      - apimocker
+
+volumes:
+  jenkins_home:
+  apimocker_allure_results:
+    name: apimocker_allure_results
+
+  allure_reports:
+
+networks:
+  apimocker:
+    driver: bridge

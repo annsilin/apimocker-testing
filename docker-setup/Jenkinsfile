@@ -1,0 +1,87 @@
+// Jenkinsfile — Apimocker API Tests
+
+pipeline {
+
+    agent any
+
+    triggers {
+        cron('H 9 * * 1-5')
+    }
+
+    parameters {
+        string(
+            name: 'PYTEST_ARGS',
+            defaultValue: '',
+            description: 'Additional pytest arguments, eg.: -k test_users or --tb=long'
+        )
+    }
+
+    options {
+        timestamps()
+        ansiColor('xterm')
+        timeout(time: 15, unit: 'MINUTES')
+        buildDiscarder(logRotator(numToKeepStr: '20'))
+    }
+
+    stages {
+
+        // ── 1. Build Test Image ───────────────────────────────────────────
+        stage('Build Test Image') {
+            steps {
+                sh '''
+                    docker build --no-cache \
+                        -t apimocker-tests \
+                        -f /workspace/docker-setup/tests/Dockerfile \
+                        /workspace
+                '''
+            }
+        }
+
+        // ── 2. Clear Previous Results ─────────────────────────────────────
+        stage('Clear Previous Results') {
+            steps {
+                sh """
+                    docker run --rm \
+                        -v apimocker_allure_results:/data \
+                        alpine sh -c "rm -rf /data/* && echo 'Results cleared'"
+                """
+            }
+        }
+
+        // ── 3. Run Tests ──────────────────────────────────────────────────
+        stage('Run Tests') {
+            steps {
+                sh """
+                    docker run --rm \
+                        -v ${HOST_WORKSPACE}:/app \
+                        -v apimocker_allure_results:/app/allure-results \
+                        apimocker-tests \
+                        /app/tests \
+                        --alluredir=/app/allure-results \
+                        -v --tb=short \
+                        ${params.PYTEST_ARGS}
+                """
+            }
+        }
+
+        // ── 4. Refresh Allure Report ──────────────────────────────────────
+        stage('Refresh Allure Report') {
+            steps {
+                sh """
+                    curl -s "http://apimocker-allure:5050/allure-docker-service/generate-report" \
+                        || echo 'Allure refresh skipped'
+                """
+            }
+        }
+    }
+
+    post {
+        always {
+            echo "Pipeline done: ${currentBuild.currentResult}"
+            echo "Allure report: http://localhost:5050/allure-docker-service/projects/default/reports/latest/index.html"
+        }
+        failure {
+            echo "Tests failed! Проверь Allure-отчёт для деталей."
+        }
+    }
+}
