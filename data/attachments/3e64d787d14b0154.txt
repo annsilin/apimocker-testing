@@ -1,0 +1,2 @@
+17:36:04  INFO      api.base_client - → DELETE https://apimocker.com/todos/999999  params=None  body=None
+17:36:05  INFO      api.base_client - ← DELETE https://apimocker.com/todos/999999  [404]  103ms

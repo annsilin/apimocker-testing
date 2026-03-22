@@ -1,0 +1,4 @@
+17:36:06  INFO      api.base_client - → GET https://apimocker.com/users  params={}  body=None
+17:36:06  INFO      api.base_client - ← GET https://apimocker.com/users  [200]  105ms
+17:36:06  INFO      api.base_client - → PUT https://apimocker.com/users/1  params=None  body={'name': 'Updated', 'email': 'test.1774200966149@example.com', 'username': 'user1774200966149'}
+17:36:06  INFO      api.base_client - ← PUT https://apimocker.com/users/1  [200]  151ms

@@ -1,0 +1,6 @@
+17:35:59  INFO      api.base_client - → GET https://apimocker.com/users  params={}  body=None
+17:36:00  INFO      api.base_client - ← GET https://apimocker.com/users  [200]  172ms
+17:36:00  INFO      api.base_client - → GET https://apimocker.com/posts  params={}  body=None
+17:36:00  INFO      api.base_client - ← GET https://apimocker.com/posts  [200]  159ms
+17:36:00  INFO      api.base_client - → PUT https://apimocker.com/posts/1  params=None  body={'title': 'Updated', 'body': 'Updated', 'userId': 1}
+17:36:00  INFO      api.base_client - ← PUT https://apimocker.com/posts/1  [200]  361ms

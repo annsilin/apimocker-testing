@@ -1,0 +1,2 @@
+17:35:56  INFO      api.base_client - → GET https://apimocker.com/comments/999999  params=None  body=None
+17:35:56  INFO      api.base_client - ← GET https://apimocker.com/comments/999999  [404]  119ms
