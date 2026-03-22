@@ -1,5 +1,0 @@
-URL:    https://apimocker.com/users/1
-Method: PUT
-Status: 200
-Time:   151 ms
-Body:   {"data":{"id":1,"name":"Updated","username":"user1774200966149","email":"test.1774200966149@example.com","phone":"+1-555-0123","website":"https://johndoe.dev","address":{"geo":{"lat":"40.7128","lng":"-74.0060"},"city":"New York","suite":"Apt 4B","street":"123 Main St","zipcode":"10001"},"company":{"bs":"harness real-time e-markets","name":"Tech Solutions Inc","catchPhrase":"Innovating the future"},"createdAt":"2026-03-22T00:00:03.796Z","updatedAt":"2026-03-22T17:36:06.183Z"}}

@@ -1,0 +1,5 @@
+URL:    https://apimocker.com/comments
+Method: GET
+Status: 200
+Time:   235 ms
+Body:   {"data":[{"id":6,"name":"Jane Smith","email":"jane.smith@example.com","body":"Thanks for sharing this valuable information. Looking forward to more posts!","postId":1,"createdAt":"2026-03-22T00:00:06.945Z","updatedAt":"2026-03-22T00:00:06.945Z","post":{"id":1,"title":"Updated"}},{"id":7,"name":"John Doe","email":"john.doe@example.com","body":"Great article! This really helped me understand the concepts better.","postId":1,"createdAt":"2026-03-22T00:00:06.944Z","updatedAt":"2026-03-22T00:00:06.944Z","post":{"id":1,"title":"Updated"}},{"id":8,"name":"Mike Johnson","email":"mike.johnson@example.com","body":"I have a question about the implementation. Could you elaborate on the database optimization part?","postId":1,"createdAt":"2026-03-22T00:00:06.945Z","updatedAt":"2026-03-22T00:00:06.945Z","post":{"id":1,"title":"Updated"}},{"id":9,"name":"Sarah Wilson","email":"sarah.wilson@example.com","body":"This is exactly what I was looking for. The examples are very clear and practical.","postId

@@ -1,0 +1,4 @@
+17:51:11  INFO      api.base_client - → GET https://apimocker.com/users  params={}  body=None
+17:51:12  INFO      api.base_client - ← GET https://apimocker.com/users  [200]  177ms
+17:51:12  INFO      api.base_client - → GET https://apimocker.com/users/1  params=None  body=None
+17:51:12  INFO      api.base_client - ← GET https://apimocker.com/users/1  [200]  220ms

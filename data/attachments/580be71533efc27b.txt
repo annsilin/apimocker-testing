@@ -1,2 +1,0 @@
-17:35:57  INFO      api.base_client - → GET https://apimocker.com/health  params=None  body=None
-17:35:57  INFO      api.base_client - ← GET https://apimocker.com/health  [200]  270ms

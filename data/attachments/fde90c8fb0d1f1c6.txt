@@ -1,4 +1,0 @@
-INFO     api.base_client:base_client.py:31 → GET https://apimocker.com/comments  params={}  body=None
-INFO     api.base_client:base_client.py:36 ← GET https://apimocker.com/comments  [200]  177ms
-INFO     api.base_client:base_client.py:31 → GET https://apimocker.com/comments/5  params=None  body=None
-INFO     api.base_client:base_client.py:36 ← GET https://apimocker.com/comments/5  [200]  246ms

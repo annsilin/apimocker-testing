@@ -1,0 +1,6 @@
+17:51:10  INFO      api.base_client - → GET https://apimocker.com/users  params={}  body=None
+17:51:10  INFO      api.base_client - ← GET https://apimocker.com/users  [200]  217ms
+17:51:10  INFO      api.base_client - → POST https://apimocker.com/todos  params=None  body={'title': 'Del', 'completed': False, 'userId': 1}
+17:51:11  INFO      api.base_client - ← POST https://apimocker.com/todos  [201]  354ms
+17:51:11  INFO      api.base_client - → DELETE https://apimocker.com/todos/212  params=None  body=None
+17:51:11  INFO      api.base_client - ← DELETE https://apimocker.com/todos/212  [204]  214ms

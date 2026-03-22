@@ -1,4 +1,0 @@
-17:36:04  INFO      api.base_client - → GET https://apimocker.com/todos  params={}  body=None
-17:36:04  INFO      api.base_client - ← GET https://apimocker.com/todos  [200]  166ms
-17:36:04  INFO      api.base_client - → PATCH https://apimocker.com/todos/1  params=None  body={'completed': True}
-17:36:04  INFO      api.base_client - ← PATCH https://apimocker.com/todos/1  [400]  53ms

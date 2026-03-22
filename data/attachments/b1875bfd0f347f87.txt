@@ -1,5 +1,0 @@
-URL:    https://apimocker.com/comments/5
-Method: GET
-Status: 200
-Time:   246 ms
-Body:   {"data":{"id":5,"name":"David Brown","email":"david.brown@example.com","body":"Excellent write-up! The step-by-step approach makes it easy to follow along.","postId":2,"createdAt":"2026-03-22T00:00:06.838Z","updatedAt":"2026-03-22T00:00:06.838Z","post":{"id":2,"title":"Getting Started with Modern Web Development"}}}

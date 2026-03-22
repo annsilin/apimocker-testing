@@ -1,5 +1,0 @@
-URL:    https://apimocker.com/users
-Method: GET
-Status: 200
-Time:   122 ms
-Body:   {"data":[{"id":1,"name":"Updated","username":"user1774200418455","email":"test.1774200418455@example.com","phone":"+1-555-0123","website":"https://johndoe.dev","address":{"geo":{"lat":"40.7128","lng":"-74.0060"},"city":"New York","suite":"Apt 4B","street":"123 Main St","zipcode":"10001"},"company":{"bs":"harness real-time e-markets","name":"Tech Solutions Inc","catchPhrase":"Innovating the future"},"createdAt":"2026-03-22T00:00:03.796Z","updatedAt":"2026-03-22T17:26:58.134Z"},{"id":2,"name":"Rachel Lee","username":"rachellee","email":"rachel.lee@example.com","phone":"+1-555-0132","website":"https://rachellee.com","address":{"geo":{"lat":"37.3382","lng":"-121.8863"},"city":"San Jose","suite":"Apt 22E","street":"741 Poplar Dr","zipcode":"95101"},"company":{"bs":"harness machine learning","name":"AI Innovations","catchPhrase":"Intelligent automation"},"createdAt":"2026-03-22T00:00:03.797Z","updatedAt":"2026-03-22T00:00:03.797Z"},{"id":3,"name":"Chris Miller","username":"chrismiller","emai

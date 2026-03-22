@@ -1,0 +1,5 @@
+URL:    https://apimocker.com/comments/6
+Method: GET
+Status: 200
+Time:   269 ms
+Body:   {"data":{"id":6,"name":"Jane Smith","email":"jane.smith@example.com","body":"Thanks for sharing this valuable information. Looking forward to more posts!","postId":1,"createdAt":"2026-03-22T00:00:06.945Z","updatedAt":"2026-03-22T00:00:06.945Z","post":{"id":1,"title":"Updated"}}}

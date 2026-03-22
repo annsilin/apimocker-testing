@@ -1,5 +1,0 @@
-URL:    https://apimocker.com/health
-Method: GET
-Status: 200
-Time:   270 ms
-Body:   {"status":"OK","timestamp":"2026-03-22T17:35:57.968Z","uptime":12440284.792749967}
